@@ -1,0 +1,25 @@
+{
+  "name": "king192/composer_demo",
+  "description": "composer dev",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xhq",
+      "homepage": "xiehuangqin@foxmail.com"
+    }
+  ],
+  "require": {
+    "php":">=5.3"
+  },
+  "require-dev" : {
+    "phpunit/phpunit": "~4.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"Demo\\": "src/Demo"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Demo\\": "tests/Demo"}
+  }
+}
